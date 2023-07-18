@@ -1,13 +1,7 @@
-import numpy as np
+
 import streamlit as st
 import pandas as pd
-import seaborn as sns
-from sklearn.compose import ColumnTransformer
-from sklearn.linear_model import Ridge
-from sklearn.preprocessing import PolynomialFeatures, StandardScaler, OneHotEncoder
-from sklearn.pipeline import make_pipeline, Pipeline
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, r2_score
+
 import pickle
 
 df = pd.read_csv(r'C:\Users\HP\Desktop\Project -Tags\Bengaluru_house_prediction\cleaned_dataset.csv')
