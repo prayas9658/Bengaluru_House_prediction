@@ -1,7 +1,6 @@
 import numpy as np
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.compose import ColumnTransformer
 from sklearn.linear_model import Ridge
